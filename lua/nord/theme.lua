@@ -42,11 +42,17 @@ theme.loadSyntax = function()
 		htmlH4 = { fg = nord.nord15_gui},
 		htmlH5 = { fg = nord.nord9_gui},
 		markdownH1 = { fg = nord.nord8_gui},
-		markdownH2 = { fg = nord.nord11_gui},
-		markdownH3 = { fg = nord.nord14_gui},
-		markdownH1Delimiter = { fg = nord.nord8_gui },
-		markdownH2Delimiter = { fg = nord.nord11_gui },
-		markdownH3Delimiter = { fg = nord.nord14_gui },
+		markdownH2 = { fg = nord.nord8_gui},
+		markdownH3 = { fg = nord.nord8_gui},
+		markdownH4 = { fg = nord.nord8_gui},
+		markdownH5 = { fg = nord.nord8_gui},
+		markdownH6 = { fg = nord.nord8_gui},
+		markdownH1Delimiter = { fg = nord.nord9_gui },
+		markdownH2Delimiter = { fg = nord.nord9_gui },
+		markdownH3Delimiter = { fg = nord.nord9_gui },
+		markdownH4Delimiter = { fg = nord.nord9_gui },
+		markdownH5Delimiter = { fg = nord.nord9_gui },
+	        markdownH6Delimiter = { fg = nord.nord9_gui }
 	}
 
 	-- Italic comments
@@ -260,7 +266,7 @@ theme.loadTreeSitter = function()
 		TSType = { fg = nord.nord9_gui }, -- For types.
 		TSTypeBuiltin = { fg = nord.nord9_gui }, -- For builtin types.
 		TSTag = { fg = nord.nord4_gui }, -- Tags like html tag names.
-		TSTagDelimiter = { fg = nord.nord15_gui }, -- Tag delimiter like `<` `>` `/`
+		TSTagDelimiter = { fg = nord.nord6_gui }, -- Tag delimiter like `<` `>` `/`
 		TSText = { fg = nord.nord4_gui }, -- For strings considenord11_gui text in a markup language.
 		TSTextReference = { fg = nord.nord15_gui }, -- FIXME
 		TSEmphasis = { fg = nord.nord10_gui }, -- For text to be represented with emphasis.
