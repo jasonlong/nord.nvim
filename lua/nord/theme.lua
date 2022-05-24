@@ -266,7 +266,7 @@ theme.loadTreeSitter = function()
 		TSType = { fg = nord.nord9_gui }, -- For types.
 		TSTypeBuiltin = { fg = nord.nord9_gui }, -- For builtin types.
 		TSTag = { fg = nord.nord4_gui }, -- Tags like html tag names.
-		TSTagDelimiter = { fg = nord.nord6_gui }, -- Tag delimiter like `<` `>` `/`
+		TSTagDelimiter = { fg = nord.nord9_gui }, -- Tag delimiter like `<` `>` `/`
 		TSText = { fg = nord.nord4_gui }, -- For strings considenord11_gui text in a markup language.
 		TSTextReference = { fg = nord.nord15_gui }, -- FIXME
 		TSEmphasis = { fg = nord.nord10_gui }, -- For text to be represented with emphasis.
